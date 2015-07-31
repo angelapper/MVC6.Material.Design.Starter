@@ -11,7 +11,7 @@ develop project folder structure (thanks for https://scotch.io/tutorials/angular
 > app/<br/>
 > ----- shared/   // acts as reusable components<br/>
 > ----- components/   //each component is treated as a mini Angular app, support to compile scss and css<br/>
-> ---------- users/<br/><br/>
+> ---------- users/<br/>
 > --------------- app.css<br/>
 > --------------- contactSheet.tmpl.html<br/>
 > --------------- UserController.js<br/>
