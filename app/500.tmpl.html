@@ -1,0 +1,26 @@
+<div class="full-height" layout="column" layout-fill layout-align="space-around center" md-theme="{{triSkin.elements.content}}" theme-background="primary:hue-3">
+    <div layout="row" flex class="full-width" layout-align="center center">
+        <div flex="50" flex-sm="90" layout="row">
+            <div flex>
+                <img src="assets/images/font/material-font-5.png">
+            </div>
+            <div flex>
+                <img src="assets/images/font/material-font-0.png">
+            </div>
+            <div flex>
+                <img src="assets/images/font/material-font-0.png">
+            </div>
+        </div>
+    </div>
+    <div layout="row" flex class="full-width" layout-align="center center">
+        <md-card flex="50" flex-sm="90">
+            <md-card-content class="text-center">
+                <h1 class="md-display-1">
+                    {{'500.MESSAGE' | translate}}
+                </h1>
+                <p>{{'500.DESCRIPTION' | translate}}</p>
+                <md-button class="md-primary md-raised" ng-click="goHome()">{{'500.HOME' | translate}}</md-button>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>

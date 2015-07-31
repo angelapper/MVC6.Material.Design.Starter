@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "modernizr":"2.8.3",
+    "angular": "^1.4.x",
+    "angular-animate": "^1.4.x",
+    "angular-aria": "^1.4.x",
+    "angular-material": "0.10.0",
+    "font-awesome": "4.4.0",
+    "material-design-iconic-font": "2.1.1",
+    "animate.css-scss": "https://github.com/geoffgraham/animate.scss.git#master"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.3",
+    "angular-material": "~0.9.4"
+  },
+  "license": "MIT",
+  "name": "awaymonitor",
+  "private": true
+}
